@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TOYMainTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  // Override point for customization after application launch.
+  
+  TOYMainTableViewController *controller = [[TOYMainTableViewController alloc] initWithStyle:UITableViewStylePlain];
+  
+  UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:controller];
+  
+  self.window.rootViewController = nav;
+
   return YES;
 }
 

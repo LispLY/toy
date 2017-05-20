@@ -1,3 +1,5 @@
 platform :ios, '9.0'
 
-pod 'Masonry'
+target ‘toy’ do
+  pod 'Masonry'
+end

@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  TOYAccount.m
 //  toy
 //
 //  Created by LuLouie on 2017/5/20.
 //  Copyright © 2017年 LuLouie. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "TOYAccount.h"
 
-@interface ViewController : UIViewController
-
+@implementation TOYAccount
 
 @end
-

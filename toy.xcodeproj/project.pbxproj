@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A0E68DB88DDCF36F706E3D6 /* libPods-toy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 403E60C2117F29A4BC837EC8 /* libPods-toy.a */; };
 		DE06C62F1ED02B26002C43B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE06C62E1ED02B26002C43B0 /* main.m */; };
 		DE06C6321ED02B26002C43B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE06C6311ED02B26002C43B0 /* AppDelegate.m */; };
-		DE06C6351ED02B26002C43B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE06C6341ED02B26002C43B0 /* ViewController.m */; };
 		DE06C63A1ED02B26002C43B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE06C6391ED02B26002C43B0 /* Assets.xcassets */; };
 		DE06C63D1ED02B26002C43B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE06C63B1ED02B26002C43B0 /* LaunchScreen.storyboard */; };
+		DE06C6551ED03BE8002C43B0 /* TOYMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE06C6541ED03BE8002C43B0 /* TOYMainTableViewController.m */; };
+		DE06C6581ED0482B002C43B0 /* TOYExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE06C6571ED0482B002C43B0 /* TOYExampleViewController.m */; };
+		DE06C65C1ED04997002C43B0 /* TOYAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = DE06C65B1ED04997002C43B0 /* TOYAccount.m */; };
+		DE06C6601ED04DC9002C43B0 /* TOYSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE06C65F1ED04DC9002C43B0 /* TOYSignupViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,17 +29,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		403E60C2117F29A4BC837EC8 /* libPods-toy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-toy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4B0F5AB3DCFF881C494E44 /* Pods-toy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toy.release.xcconfig"; path = "Pods/Target Support Files/Pods-toy/Pods-toy.release.xcconfig"; sourceTree = "<group>"; };
+		B7CB6AB04485578F2637B703 /* Pods-toy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-toy/Pods-toy.debug.xcconfig"; sourceTree = "<group>"; };
 		DE06C62A1ED02B26002C43B0 /* toy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE06C62E1ED02B26002C43B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DE06C6301ED02B26002C43B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE06C6311ED02B26002C43B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DE06C6331ED02B26002C43B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DE06C6341ED02B26002C43B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DE06C6391ED02B26002C43B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE06C63C1ED02B26002C43B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE06C63E1ED02B26002C43B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE06C6431ED02B26002C43B0 /* toyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE06C6521ED0379B002C43B0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DE06C6531ED03BE8002C43B0 /* TOYMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOYMainTableViewController.h; sourceTree = "<group>"; };
+		DE06C6541ED03BE8002C43B0 /* TOYMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOYMainTableViewController.m; sourceTree = "<group>"; };
+		DE06C6561ED0482B002C43B0 /* TOYExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOYExampleViewController.h; sourceTree = "<group>"; };
+		DE06C6571ED0482B002C43B0 /* TOYExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOYExampleViewController.m; sourceTree = "<group>"; };
+		DE06C65A1ED04997002C43B0 /* TOYAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOYAccount.h; sourceTree = "<group>"; };
+		DE06C65B1ED04997002C43B0 /* TOYAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOYAccount.m; sourceTree = "<group>"; };
+		DE06C65E1ED04DC9002C43B0 /* TOYSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOYSignupViewController.h; sourceTree = "<group>"; };
+		DE06C65F1ED04DC9002C43B0 /* TOYSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOYSignupViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A0E68DB88DDCF36F706E3D6 /* libPods-toy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,11 +70,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B6E526B9E9A9CA320073F6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7CB6AB04485578F2637B703 /* Pods-toy.debug.xcconfig */,
+				6D4B0F5AB3DCFF881C494E44 /* Pods-toy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB1B54C1D0ED2F1A0DA159CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				403E60C2117F29A4BC837EC8 /* libPods-toy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DE06C6211ED02B26002C43B0 = {
 			isa = PBXGroup;
 			children = (
 				DE06C62C1ED02B26002C43B0 /* toy */,
 				DE06C62B1ED02B26002C43B0 /* Products */,
+				0B6E526B9E9A9CA320073F6A /* Pods */,
+				DB1B54C1D0ED2F1A0DA159CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,10 +111,13 @@
 			children = (
 				DE06C6301ED02B26002C43B0 /* AppDelegate.h */,
 				DE06C6311ED02B26002C43B0 /* AppDelegate.m */,
-				DE06C6331ED02B26002C43B0 /* ViewController.h */,
-				DE06C6341ED02B26002C43B0 /* ViewController.m */,
+				DE06C6531ED03BE8002C43B0 /* TOYMainTableViewController.h */,
+				DE06C6541ED03BE8002C43B0 /* TOYMainTableViewController.m */,
+				DE06C6561ED0482B002C43B0 /* TOYExampleViewController.h */,
+				DE06C6571ED0482B002C43B0 /* TOYExampleViewController.m */,
+				DE06C65D1ED04D3D002C43B0 /* Example Views */,
+				DE06C6591ED04950002C43B0 /* Models */,
 				DE06C6391ED02B26002C43B0 /* Assets.xcassets */,
-				DE06C63E1ED02B26002C43B0 /* Info.plist */,
 				DE06C62D1ED02B26002C43B0 /* Supporting Files */,
 			);
 			path = toy;
@@ -90,11 +126,30 @@
 		DE06C62D1ED02B26002C43B0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DE06C63E1ED02B26002C43B0 /* Info.plist */,
 				DE06C63B1ED02B26002C43B0 /* LaunchScreen.storyboard */,
 				DE06C6521ED0379B002C43B0 /* PrefixHeader.pch */,
 				DE06C62E1ED02B26002C43B0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE06C6591ED04950002C43B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE06C65A1ED04997002C43B0 /* TOYAccount.h */,
+				DE06C65B1ED04997002C43B0 /* TOYAccount.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DE06C65D1ED04D3D002C43B0 /* Example Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE06C65E1ED04DC9002C43B0 /* TOYSignupViewController.h */,
+				DE06C65F1ED04DC9002C43B0 /* TOYSignupViewController.m */,
+			);
+			name = "Example Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE06C64C1ED02B26002C43B0 /* Build configuration list for PBXNativeTarget "toy" */;
 			buildPhases = (
+				54944557BC35B8E6024EF99B /* [CP] Check Pods Manifest.lock */,
 				DE06C6261ED02B26002C43B0 /* Sources */,
 				DE06C6271ED02B26002C43B0 /* Frameworks */,
 				DE06C6281ED02B26002C43B0 /* Resources */,
+				788A54F55157745AAA2F6582 /* [CP] Embed Pods Frameworks */,
+				1B8024B9D3912D7978244509 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,6 +199,7 @@
 		DE06C6221ED02B26002C43B0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TOY;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = LuLouie;
 				TargetAttributes = {
@@ -195,12 +254,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B8024B9D3912D7978244509 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-toy/Pods-toy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54944557BC35B8E6024EF99B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		788A54F55157745AAA2F6582 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-toy/Pods-toy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE06C6261ED02B26002C43B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE06C6351ED02B26002C43B0 /* ViewController.m in Sources */,
+				DE06C6581ED0482B002C43B0 /* TOYExampleViewController.m in Sources */,
+				DE06C65C1ED04997002C43B0 /* TOYAccount.m in Sources */,
+				DE06C6551ED03BE8002C43B0 /* TOYMainTableViewController.m in Sources */,
+				DE06C6601ED04DC9002C43B0 /* TOYSignupViewController.m in Sources */,
 				DE06C6321ED02B26002C43B0 /* AppDelegate.m in Sources */,
 				DE06C62F1ED02B26002C43B0 /* main.m in Sources */,
 			);
@@ -253,6 +363,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -300,6 +411,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -325,6 +437,7 @@
 		};
 		DE06C64D1ED02B26002C43B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7CB6AB04485578F2637B703 /* Pods-toy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XGM42YA288;
@@ -337,6 +450,7 @@
 		};
 		DE06C64E1ED02B26002C43B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D4B0F5AB3DCFF881C494E44 /* Pods-toy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XGM42YA288;
