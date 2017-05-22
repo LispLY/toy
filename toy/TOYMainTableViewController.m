@@ -9,6 +9,7 @@
 #import "TOYMainTableViewController.h"
 #import "TOYExampleViewController.h"
 #import "TOYSignupViewController.h"
+#import "TOYAFSignupViewController.h"
 
 static NSString * const kCellReuseIdentifier = @"cellReuseIdentifier";
 
@@ -26,7 +27,8 @@ static NSString * const kCellReuseIdentifier = @"cellReuseIdentifier";
   self.controllers = @[
                        [[TOYSignupViewController alloc] initWithTitle:@"sign up"],
                        [[TOYExampleViewController alloc] initWithTitle:@"sign in"],
-                       [[TOYExampleViewController alloc] initWithTitle:@"main what"]
+                       [[TOYExampleViewController alloc] initWithTitle:@"main what"],
+                       [[TOYAFSignupViewController alloc] initWithTitle:@"sign up with AFNetworking"]
                        ];
   
   self.title = @"Have Fun!";

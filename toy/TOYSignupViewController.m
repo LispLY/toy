@@ -9,14 +9,8 @@
 #import "TOYSignupViewController.h"
 #import <Masonry.h>
 
-static NSString * const kMobileNumber = @"13149829762";
-static NSString * const kBaseUrl = @"http://miaomiaoapi.qijitest.tech";
-static NSString * const kSignupUrl = @"/captcha/send/mobile";
 
 @interface TOYSignupViewController ()
-
-@property (nonatomic, strong) UIButton *sendButton;
-@property (nonatomic, strong) UITextView *textView;
 
 @end
 
