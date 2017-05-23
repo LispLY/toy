@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5A0E68DB88DDCF36F706E3D6 /* libPods-toy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 403E60C2117F29A4BC837EC8 /* libPods-toy.a */; };
 		DE0270B31ED2C86A00719753 /* TOYAFSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0270B21ED2C86A00719753 /* TOYAFSignupViewController.m */; };
+		DE0270B61ED2E75F00719753 /* TOYSimpleFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0270B51ED2E75F00719753 /* TOYSimpleFeedViewController.m */; };
+		DE0270B91ED2F1A300719753 /* TOYFeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0270B81ED2F1A300719753 /* TOYFeedTableViewController.m */; };
 		DE06C62F1ED02B26002C43B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE06C62E1ED02B26002C43B0 /* main.m */; };
 		DE06C6321ED02B26002C43B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE06C6311ED02B26002C43B0 /* AppDelegate.m */; };
 		DE06C63A1ED02B26002C43B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE06C6391ED02B26002C43B0 /* Assets.xcassets */; };
@@ -35,6 +37,10 @@
 		B7CB6AB04485578F2637B703 /* Pods-toy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-toy/Pods-toy.debug.xcconfig"; sourceTree = "<group>"; };
 		DE0270B11ED2C86A00719753 /* TOYAFSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOYAFSignupViewController.h; sourceTree = "<group>"; };
 		DE0270B21ED2C86A00719753 /* TOYAFSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOYAFSignupViewController.m; sourceTree = "<group>"; };
+		DE0270B41ED2E75F00719753 /* TOYSimpleFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOYSimpleFeedViewController.h; sourceTree = "<group>"; };
+		DE0270B51ED2E75F00719753 /* TOYSimpleFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOYSimpleFeedViewController.m; sourceTree = "<group>"; };
+		DE0270B71ED2F1A300719753 /* TOYFeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOYFeedTableViewController.h; sourceTree = "<group>"; };
+		DE0270B81ED2F1A300719753 /* TOYFeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOYFeedTableViewController.m; sourceTree = "<group>"; };
 		DE06C62A1ED02B26002C43B0 /* toy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE06C62E1ED02B26002C43B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DE06C6301ED02B26002C43B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -153,6 +159,10 @@
 				DE06C65F1ED04DC9002C43B0 /* TOYSignupViewController.m */,
 				DE0270B11ED2C86A00719753 /* TOYAFSignupViewController.h */,
 				DE0270B21ED2C86A00719753 /* TOYAFSignupViewController.m */,
+				DE0270B41ED2E75F00719753 /* TOYSimpleFeedViewController.h */,
+				DE0270B51ED2E75F00719753 /* TOYSimpleFeedViewController.m */,
+				DE0270B71ED2F1A300719753 /* TOYFeedTableViewController.h */,
+				DE0270B81ED2F1A300719753 /* TOYFeedTableViewController.m */,
 			);
 			name = "Example Views";
 			sourceTree = "<group>";
@@ -313,9 +323,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE06C6581ED0482B002C43B0 /* TOYExampleViewController.m in Sources */,
+				DE0270B61ED2E75F00719753 /* TOYSimpleFeedViewController.m in Sources */,
 				DE06C65C1ED04997002C43B0 /* TOYAccount.m in Sources */,
 				DE06C6551ED03BE8002C43B0 /* TOYMainTableViewController.m in Sources */,
 				DE06C6601ED04DC9002C43B0 /* TOYSignupViewController.m in Sources */,
+				DE0270B91ED2F1A300719753 /* TOYFeedTableViewController.m in Sources */,
 				DE0270B31ED2C86A00719753 /* TOYAFSignupViewController.m in Sources */,
 				DE06C6321ED02B26002C43B0 /* AppDelegate.m in Sources */,
 				DE06C62F1ED02B26002C43B0 /* main.m in Sources */,

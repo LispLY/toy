@@ -10,6 +10,7 @@
 #import "TOYExampleViewController.h"
 #import "TOYSignupViewController.h"
 #import "TOYAFSignupViewController.h"
+#import "TOYFeedTableViewController.h"
 
 static NSString * const kCellReuseIdentifier = @"cellReuseIdentifier";
 
@@ -27,6 +28,7 @@ static NSString * const kCellReuseIdentifier = @"cellReuseIdentifier";
   self.controllers = @[
                        [[TOYSignupViewController alloc] initWithTitle:@"sign up"],
                        [[TOYExampleViewController alloc] initWithTitle:@"sign in"],
+                       [[TOYFeedTableViewController alloc] initWithTitle:@"feedWithLocalData"],
                        [[TOYExampleViewController alloc] initWithTitle:@"main what"],
                        [[TOYAFSignupViewController alloc] initWithTitle:@"sign up with AFNetworking"]
                        ];
