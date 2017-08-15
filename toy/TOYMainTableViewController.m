@@ -11,6 +11,8 @@
 #import "TOYSignupViewController.h"
 #import "TOYAFSignupViewController.h"
 #import "TOYFeedTableViewController.h"
+#import "TOYAFIPPOSTViewController.h"
+
 
 static NSString * const kCellReuseIdentifier = @"cellReuseIdentifier";
 
@@ -29,8 +31,10 @@ static NSString * const kCellReuseIdentifier = @"cellReuseIdentifier";
                        [[TOYSignupViewController alloc] initWithTitle:@"sign up"],
                        [[TOYExampleViewController alloc] initWithTitle:@"sign in"],
                        [[TOYFeedTableViewController alloc] initWithTitle:@"feedWithLocalData"],
+                       [[TOYFeedTableViewController alloc] initWithTitle:@"feed from cool code"],
                        [[TOYExampleViewController alloc] initWithTitle:@"main what"],
-                       [[TOYAFSignupViewController alloc] initWithTitle:@"sign up with AFNetworking"]
+                       [[TOYAFSignupViewController alloc] initWithTitle:@"sign up with AFNetworking"],
+                       [[TOYAFIPPOSTViewController alloc] initWithTitle:@"ip post request"]
                        ];
   
   self.title = @"Have Fun!";

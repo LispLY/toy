@@ -19,6 +19,8 @@
 		DE06C6581ED0482B002C43B0 /* TOYExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE06C6571ED0482B002C43B0 /* TOYExampleViewController.m */; };
 		DE06C65C1ED04997002C43B0 /* TOYAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = DE06C65B1ED04997002C43B0 /* TOYAccount.m */; };
 		DE06C6601ED04DC9002C43B0 /* TOYSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE06C65F1ED04DC9002C43B0 /* TOYSignupViewController.m */; };
+		DE374E761F4198D000B02B97 /* TOYAFIPPOSTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE374E751F4198D000B02B97 /* TOYAFIPPOSTViewController.m */; };
+		DE374E791F42BE0A00B02B97 /* GLBannerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DE374E781F42BE0A00B02B97 /* GLBannerInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,10 @@
 		DE06C65B1ED04997002C43B0 /* TOYAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOYAccount.m; sourceTree = "<group>"; };
 		DE06C65E1ED04DC9002C43B0 /* TOYSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOYSignupViewController.h; sourceTree = "<group>"; };
 		DE06C65F1ED04DC9002C43B0 /* TOYSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOYSignupViewController.m; sourceTree = "<group>"; };
+		DE374E741F4198D000B02B97 /* TOYAFIPPOSTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOYAFIPPOSTViewController.h; sourceTree = "<group>"; };
+		DE374E751F4198D000B02B97 /* TOYAFIPPOSTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOYAFIPPOSTViewController.m; sourceTree = "<group>"; };
+		DE374E771F42BE0A00B02B97 /* GLBannerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBannerInfo.h; sourceTree = "<group>"; };
+		DE374E781F42BE0A00B02B97 /* GLBannerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLBannerInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +154,8 @@
 			children = (
 				DE06C65A1ED04997002C43B0 /* TOYAccount.h */,
 				DE06C65B1ED04997002C43B0 /* TOYAccount.m */,
+				DE374E771F42BE0A00B02B97 /* GLBannerInfo.h */,
+				DE374E781F42BE0A00B02B97 /* GLBannerInfo.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -163,6 +171,8 @@
 				DE0270B51ED2E75F00719753 /* TOYSimpleFeedViewController.m */,
 				DE0270B71ED2F1A300719753 /* TOYFeedTableViewController.h */,
 				DE0270B81ED2F1A300719753 /* TOYFeedTableViewController.m */,
+				DE374E741F4198D000B02B97 /* TOYAFIPPOSTViewController.h */,
+				DE374E751F4198D000B02B97 /* TOYAFIPPOSTViewController.m */,
 			);
 			name = "Example Views";
 			sourceTree = "<group>";
@@ -325,12 +335,14 @@
 				DE06C6581ED0482B002C43B0 /* TOYExampleViewController.m in Sources */,
 				DE0270B61ED2E75F00719753 /* TOYSimpleFeedViewController.m in Sources */,
 				DE06C65C1ED04997002C43B0 /* TOYAccount.m in Sources */,
+				DE374E761F4198D000B02B97 /* TOYAFIPPOSTViewController.m in Sources */,
 				DE06C6551ED03BE8002C43B0 /* TOYMainTableViewController.m in Sources */,
 				DE06C6601ED04DC9002C43B0 /* TOYSignupViewController.m in Sources */,
 				DE0270B91ED2F1A300719753 /* TOYFeedTableViewController.m in Sources */,
 				DE0270B31ED2C86A00719753 /* TOYAFSignupViewController.m in Sources */,
 				DE06C6321ED02B26002C43B0 /* AppDelegate.m in Sources */,
 				DE06C62F1ED02B26002C43B0 /* main.m in Sources */,
+				DE374E791F42BE0A00B02B97 /* GLBannerInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

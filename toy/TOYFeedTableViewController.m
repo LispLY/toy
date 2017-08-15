@@ -12,6 +12,7 @@
 
 static NSInteger const kPageSize = 15;
 static NSString * const kCellIdentifier = @"cellIdentifier";
+static NSString * const kBaseUrl = @"http://coolcodeapi.wodetiku.com";
 
 
 @interface TOYFeedTableViewController ()
@@ -80,6 +81,44 @@ static NSString * const kCellIdentifier = @"cellIdentifier";
       self.pageLoaded = [self.feed count];
     }
   }
+  if ([self.title isEqualToString:@"feed from cool code"]) {
+    NSDictionary *param = @{
+                            @"article_id" : @1,
+                            @"page_size" : @5,
+                            @"token" : @"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vY29vbGNvZGVhcGkud29kZXRpa3UuY29tL2xvZ2luL21vYmlsZSIsImlhdCI6MTQ5NTIwMTc3NiwiZXhwIjoxNDk4NjA5Nzc2LCJuYmYiOjE0OTUyMDE3NzYsImp0aSI6Ill2bW1BVTlnaEdmN2I3THciLCJzdWIiOjQ0fQ.LK6SE9_a9lPuioU6Gr6RT0h611f86r_mFyg1fu30GE8"
+                            };
+    AFHTTPSessionManager *sessionManager = [[AFHTTPSessionManager alloc] initWithBaseURL:[NSURL URLWithString:kBaseUrl]];
+    NSURLRequest *getRequest = [[AFJSONRequestSerializer serializer]requestWithMethod:@"get" URLString:@"http://coolcodeapi.wodetiku.com/articles/:article_id/comments" parameters:param error:nil];
+    
+    NSLog(@"%@",getRequest);
+    
+    [sessionManager GET:@"/articles/:article_id/comments" parameters:param progress:^(NSProgress * _Nonnull downloadProgress) {
+      
+    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+      if (responseObject) {
+        NSLog(@"%@\n%@",[responseObject class],responseObject);
+      }
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+      if (error) {
+        NSLog(@"%@",error);
+      }
+    }];
+
+    NSURLSessionDataTask *task = [sessionManager dataTaskWithRequest:getRequest completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
+      if (response) {
+        NSLog(@"%@",response);
+      }
+      if (responseObject) {
+        NSLog(@"%@\n%@",[responseObject class],responseObject);
+      }
+      if (error) {
+        NSLog(@"%@",error);
+      }
+    }];
+    //[task resume];
+  }
+  
+  
   [self.tableView reloadData];
   [self.refreshControl endRefreshing];
 }
